@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-snmi
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/push-pyxis-kosj-tenant/appstudio/dc-metro-map-snmi@sha256:e30f48d199e32c1ced64c289d6bd5c1e71fe93955d015f6fd3cbe79ba92277ae
         name: my-nodejs
         ports:
         - containerPort: 3001
